@@ -1,38 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>R-Charan-Portfolio</title>
-    <link rel="stylesheet" href="portfolio.css">
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Resume Template</title>
+	<link rel="stylesheet" href="portfolio.css" />
 </head>
 <body>
-    <h1>portfolio details</h1>
-     <form id="details">
-        <label>Name:</label>
-        <input type="text" id="name" required>
-        <br><br>
-        <label>Email:</label>
-        <input type="email" id="mail" required>
-        <br><br>
-        <label>Phone no:</label>
-        <input type="number" id="phone" required>
-        <br><br>
-        <label>Age:</label>
-        <input type="number" id="age" required>
-        <br><br>
-        <label>Gender:</label>
-        <input type="text" id="gender" required>
-        <br><br>
-        <label>Address:</label>
-        <input type="text" id="address" required>
-        <br><br>
-        <label>Photo</label>
-        <input type="file" id="image" accept="image/*" required>
-        <br><br>
-        <button type="submit" >Submit</button>
-    </form>
-    <div id="output"></div>
-    <script src="portfolio.js"></script>
+	<main class="resume-shell">
+		<section class="resume-page">
+			<header class="resume-header">
+				<div class="photo-frame" aria-label="Profile photo placeholder">
+					<img src="c:\Users\chara\Downloads\Rodda Charan.jpeg"alt="Your photo" />
+				</div>
+
+				<div class="header-copy">
+					<h1>Rodda Charan</h1>
+					<p class="headline">Aspiring fullStack Developer</p>
+
+					<div class="contact-row">
+						<a href="mailto:your.email@example.com">charan887795@gmail.com</a>
+						<span>|</span>
+						<a href="https://www.linkedin.com/in/rodda-charan-70093b331/" target="_blank" rel="noreferrer">LinkedIn</a>
+						<span>|</span>
+						<a href="https://github.com/charan-2007-26" target="_blank" rel="noreferrer">GitHub</a>
+						<span>|</span>
+						<a href="https://yourportfolio.com" target="_blank" rel="noreferrer">Portfolio</a>
+					</div>
+				</div>
+			</header>
+
+			<section class="resume-section">
+				<h2>Education</h2>
+				<div class="table-wrap">
+					<table>
+						<thead>
+							<tr>
+								<th>Degree/Grade</th>
+								<th>Institution</th>
+								<th>CGPA/Marks</th>
+								<th>Year</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>B.TECH(CSE-DS)</td>
+								<td>MTIEAT-Palamaner</td>
+								<td>7.54(current)</td>
+								<td>2026</td>
+							</tr>
+							<tr>
+								<td>Senior Secondary</td>
+								<td>APSWREIS-Ramakuppam, AP</td>
+								<td>798/1000 Marks</td>
+								<td>2024</td>
+							</tr>
+							<tr>
+								<td>Secondary (High School)</td>
+								<td>APSWREIS-Ramakuppam, AP</td>
+								<td>484/600 Marks</td>
+								<td>2022</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
+
+			<section class="resume-section">
+				<h2>Technical Skills</h2>
+				<ul class="bullet-list">
+					<li><strong>Languages:</strong> HTML, CSS, JavaScript, Python, Java, C++</li>
+					<li><strong>Frameworks:</strong> node js, spring, spring boot, </li>
+					<li><strong>Databases:</strong> MySQL, MongoDB</li>
+					<li><strong>Other:</strong> Data Structures, Algorithms, Git, GitHub, Problem Solving</li>
+				</ul>
+			</section>
+
+			<section class="resume-section">
+				<h2>Experience</h2>
+				<article class="entry">
+					<div class="entry-heading">
+						<h3>Your Job Title</h3>
+						<span>Your Date Range</span>
+					</div>
+					<p class="entry-subtitle">Company Name</p>
+					<ul class="detail-list">
+						<li>Describe your responsibilities and what you contributed.</li>
+						<li>Highlight measurable outcomes, tools used, or impact.</li>
+					</ul>
+				</article>
+			</section>
+
+			<section class="resume-section">
+				<h2>Projects</h2>
+				<article class="entry">
+					<div class="entry-heading">
+						<h3>Project One</h3>
+						<span>Project Date</span>
+					</div>
+					<p class="entry-subtitle">Short project tag line</p>
+					<ul class="detail-list">
+						<li>Explain what the project does and the problem it solves.</li>
+						<li>List technologies, features, or your role in the project.</li>
+						<li>
+							Links:
+							<a href="#" target="_blank" rel="noreferrer">Preview</a>
+							<span class="link-sep">|</span>
+							<a href="#" target="_blank" rel="noreferrer">GitHub Repo</a>
+						</li>
+					</ul>
+				</article>
+
+				<article class="entry">
+					<div class="entry-heading">
+						<h3>Project Two</h3>
+						<span>Project Date</span>
+					</div>
+					<p class="entry-subtitle">Short project tag line</p>
+					<ul class="detail-list">
+						<li>Explain the project briefly in one line.</li>
+						<li>Highlight technologies and outcomes.</li>
+					</ul>
+				</article>
+			</section>
+
+			<section class="resume-section">
+				<h2>Coding Profile</h2>
+				<ul class="bullet-list">
+					<li><strong>LeetCode:</strong> <a href="https://leetcode.com/u/R_CHARAN_07/">Profile Link</a></li>
+					<li><strong>HackerRank:</strong> <a href="https://www.hackerrank.com/profile/charan887795">Profile Link</a></li>
+				</ul>
+			</section>
+
+			<section class="resume-section">
+				<h2>Achievements</h2>
+				<ul class="bullet-list achievements">
+					<li>Achievement one with a result or rank.</li>
+					<li>Achievement two with a score, award, or certification.</li>
+					<li>Achievement three with a contest, exam, or recognition.</li>
+				</ul>
+			</section>
+		</section>
+	</main>
 </body>
 </html>
